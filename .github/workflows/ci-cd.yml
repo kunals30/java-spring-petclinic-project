@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-test-scan-docker:
-    runs-on: [self-hosted, aws, ubuntu]
+    runs-on: self-hosted
 
     env:
       IMAGE_NAME: myapp
